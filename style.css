@@ -6,15 +6,15 @@ body {
 }
 
 .page {
-    width: 1000px;
-    margin: 0px auto 0px;
+    width: 1080px;
+    margin: 0 auto 0;
+    padding-top: 71px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -47,10 +47,11 @@ main {
     align-items: center;
     text-align: center;
     margin-bottom: 160px;
-    gap: 70px;
+    gap: 78px;
 }
 
 h1 {
+    width: 609px;
     padding-bottom: 59px;
     font-size: 36px;
     line-height: 40px;
@@ -78,6 +79,7 @@ footer {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 28px;
+    padding: 62px;
 }
 
 footer a {
@@ -99,9 +101,8 @@ footer a:hover {
 }
 
 #cadeado {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-left: 18px;
-    padding-bottom: 18px;
+    padding: 18px;
 } 
